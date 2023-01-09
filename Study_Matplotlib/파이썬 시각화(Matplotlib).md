@@ -12,7 +12,7 @@ plt.show()
 
 (이하, import 패키지 생략)
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled.png)
+![Matplotlib_0](jpg/Matplotlib_0.png)
 
 ### plt.figure(Other Argument)
 
@@ -22,7 +22,7 @@ fig = plt.figure(figsize=(7,7),
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%201.png)
+![Matplotlib_1](jpg/Matplotlib_1.png)
 
 ### fig.add_subplot(Adding Subplots)
 
@@ -33,7 +33,7 @@ ax = fig.add_subplot()
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%202.png)
+!Matplotlib_2](jpg/Matplotlib_2.png)
 
 ### fig.add_subplot(Adding Subplots)
 
@@ -47,7 +47,7 @@ plt.show()
 
  
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%203.png)
+![Matplotlib_3](jpg/Matplotlib_3.png)
 
 ### fig.subptitle and ax.set_title(Title of Figure)
 
@@ -60,7 +60,7 @@ fig.suptitle('Title of a Figure',
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%204.png)
+!Matplotlib_4](jpg/Matplotlib_4.png)
 
 ### ax.grid()
 
@@ -72,7 +72,7 @@ plt.show()
 
 - 격자 모양 활성화
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%205.png)
+![Matplotlib_5](jpg/Matplotlib_5.png)
 
 ### ax.set_xlabel() & ax.set_ylabel()
 
@@ -92,7 +92,7 @@ plt.show()
     - default = 1
     - float value (0 ~ 1 사이의 값)
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%206.png)
+![Matplotlib_6](jpg/Matplotlib_6.png)
 
 ### fig.tight_layout()
 
@@ -113,7 +113,7 @@ ax2.set_ylim([0,10])
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%207.png)
+![Matplotlib_7](jpg/Matplotlib_7.png)
 
 ### ax.tick_params()
 
@@ -160,15 +160,15 @@ ax.tick_params(labelsize=20,
 plt.show()
 ```
 
-![- default](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%208.png)
+![Matplotlib_8](jpg/Matplotlib_8.png)
 
 - default
 
-![- labelsize = 20](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%209.png)
+![- labelsize = 20](jpg/Matplotlib_9.png)
 
 - labelsize = 20
 
-![- length = 10](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2010.png)
+![- length = 10](jpg/Matplotlib_10.png)
 
 - length = 10
 
@@ -185,15 +185,15 @@ ax.tick_params(bottom=False,
 plt.show()
 ```
 
-![- default](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2011.png)
+![- default](jpg/Matplotlib_11.png)
 
 - default
 
-![bottom = False](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2012.png)
+![bottom = False](jpg/Matplotlib_12.png)
 
 bottom = False
 
-![bottom = False, labelbottom=False](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2013.png)
+![bottom = False, labelbottom=False](jpg/Matplotlib_13.png)
 
 bottom = False, labelbottom=False
 
@@ -210,15 +210,15 @@ ax.tick_params(rotation = 30) # - 360 < 0 < 360 까지 가능.
 plt.show()
 ```
 
-![- default](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2011.png)
+![- default](jpg/Matplotlib_11.png)
 
 - default
 
-![- rotation = 30](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2014.png)
+![- rotation = 30](jpg/Matplotlib_14.png)
 
 - rotation = 30
 
-![- rotation = -30](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2015.png)
+![- rotation = -30](jpg/Matplotlib_15.png)
 
 - rotation = -30
 
@@ -236,15 +236,15 @@ ax.tick_params(axis='x',
 plt.show()
 ```
 
-![- default](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2011.png)
+![- default](jpg/Matplotlib_11.png)
 
 - default
 
-![- axis = ‘x’](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2016.png)
+![- axis = ‘x’](jpg/Matplotlib_16.png)
 
 - axis = ‘x’
 
-![- axis = ‘y’](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2017.png)
+![- axis = ‘y’](jpg/Matplotlib_17.png)
 
 - axis = ‘y’
 
@@ -299,49 +299,49 @@ ax.text(x=0,y=0,
 plt.show()
 ```
 
-![- default](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2018.png)
+![- default](jpg/Matplotlib_18.png)
 
 - default
 
-![ax.text(x=0,y=0, s= ‘Hello’, fontsize=30](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2019.png)
+![ax.text(x=0,y=0, s= ‘Hello’, fontsize=30](jpg/Matplotlib_19.png)
 
 ax.text(x=0,y=0, s= ‘Hello’, fontsize=30
 
 - parameter : va(verticallignment)
 
-![- default(top)](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2020.png)
+![- default(top)](jpg/Matplotlib_20.png)
 
 - default(top)
 
-![- center](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2021.png)
+![- center](jpg/Matplotlib_21.png)
 
 - center
 
-![- bottom](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2022.png)
+![- bottom](jpg/Matplotlib_22.png)
 
 - bottom
 
-![- baseline](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2023.png)
+![- baseline](jpg/Matplotlib_23.png)
 
 - baseline
 
 - parameter : ha(horizontalalignment)
 
-![- default(center)](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2024.png)
+![- default(center)](jpg/Matplotlib_24.png)
 
 - default(center)
 
-![- left](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2025.png)
+![- left](jpg/Matplotlib_25.png)
 
 - left
 
-![- right](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2026.png)
+![- right](jpg/Matplotlib_26.png)
 
 - right
 
 ### ax.set_xticks & ax.set_yticks (labelsize Argument)
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2027.png)
+![Matplotlib_27](jpg/Matplotlib_27.png)
 
 ### ax.set_xticks(Arbitrary Locations)
 
@@ -355,15 +355,15 @@ ax.grid()
 plt.show()
 ```
 
-![- ax.set_xlim( [ 0, 10 ] )](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2028.png)
+![- ax.set_xlim( [ 0, 10 ] )](jpg/Matplotlib_28.png)
 
 - ax.set_xlim( [ 0, 10 ] )
 
-![- ax.set_xticks([ 0, 1, 5, 10 ])](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2029.png)
+![- ax.set_xticks([ 0, 1, 5, 10 ])](jpg/Matplotlib_29.png)
 
 - ax.set_xticks([ 0, 1, 5, 10 ])
 
-![- ax.set_xticks([i for i in range(0, 101, 20)]](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2030.png)
+![- ax.set_xticks([i for i in range(0, 101, 20)]](jpg/Matplotlib_30.png)
 
 - ax.set_xticks([i for i in range(0, 101, 20)]
 
@@ -385,11 +385,11 @@ ax.grid()
 plt.show()
 ```
 
-![- only major_xticks](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2030.png)
+![- only major_xticks](jpg/Matplotlib_30.png)
 
 - only major_xticks
 
-![- major_xticks & minor_xticks](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2031.png)
+![- major_xticks & minor_xticks](jpg/Matplotlib_31.png)
 
 - major_xticks & minor_xticks
 
@@ -413,15 +413,15 @@ plt.show()
 # RGB colors = [(1., 0., 0.), (0., 1., 0.), (0., 0., 1.)]
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2032.png)
+![Matplotlib_32](jpg/Matplotlib_32.png)
 
 - Named Colors
 
-![- tab10 colors](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2033.png)
+![- tab10 colors](Matplotlib_33.png)
 
 - tab10 colors
 
-![- RGB colors](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2034.png)
+![- RGB colors](jpg/Matplotlib_34.png)
 
 - RGB colors
 
@@ -439,7 +439,7 @@ for i in range(12):
 plt.show()
 ```
 
-![cmap(lut = 20)](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2035.png)
+![cmap(lut = 20)](jpg/Matplotlib_35.png)
 
 cmap(lut = 20)
 
@@ -462,7 +462,7 @@ for c_idx in range(n_color):
 plt.show()
 ```
 
-![- cmap(’rainbow’)](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2036.png)
+![- cmap(’rainbow’)](jpg/Matplotlib_36.png)
 
 - cmap(’rainbow’)
 
@@ -484,11 +484,11 @@ ax.scatter(x_data,y_data) #  2번째 코드 ax.plot(x_data, y_data, 'o')
 plt.show()
 ```
 
-![- ax.scatter()](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2037.png)
+![- ax.scatter()](jpg/Matplotlib_37.png)
 
 - ax.scatter()
 
-![- ax.plot() marker 표시 변경 가능(e.g., ‘o’, ‘^’, ‘*’)](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2038.png)
+![- ax.plot() marker 표시 변경 가능(e.g., ‘o’, ‘^’, ‘*’)](jpg/Matplotlib_38.png)
 
 - ax.plot() marker 표시 변경 가능(e.g., ‘o’, ‘^’, ‘*’)
 
@@ -513,7 +513,7 @@ ax.plot(pred_x, pred_y,
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2039.png)
+![Matplotlib_39](jpg/Matplotlib_39.png)
 
 ```python
 n_data = 500
@@ -530,11 +530,11 @@ ax.scatter(x_data, y_data,
 plt.show()
 ```
 
-![- default](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2040.png)
+![- default](jpg/Matplotlib_40.png)
 
 - default
 
-![ax.scatter(alpha = 0.3)](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2041.png)
+![ax.scatter(alpha = 0.3)](jpg/Matplotlib_41.png)
 
 ax.scatter(alpha = 0.3)
 
@@ -555,7 +555,7 @@ ax.scatter(t, sin,
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2042.png)
+![Matplotlib_42](jpg/Matplotlib_42.png)
 
 ### Advanced Markers
 
@@ -577,9 +577,9 @@ plt.show()
 - facecolor vs none
 - facecolor에 흰색이 들어감으로써 겹치는 선이 안 보이게 됨.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2043.png)
+![Matplotlib_43](jpg/Matplotlib_43.png)
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2044.png)
+![Matplotlib_44](jpg/Matplotlib_44.png)
 
 ### ax.plot(y)
 
@@ -599,7 +599,7 @@ ax.tick_params(labelsize=25)
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2045.png)
+![Matplotlib_45](jpg/Matplotlib_45.png)
 
 ### ax.plot(x, y)
 
@@ -625,7 +625,7 @@ ax.grid()
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2046.png)
+![Matplotlib_46](jpg/Matplotlib_46.png)
 
 ```python
 np.random.seed(0)
@@ -640,7 +640,7 @@ ax.plot(x_data, y_data)
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2047.png)
+![Matplotlib_47](jpg/Matplotlib_47.png)
 
 ### Several Line Plots on One Ax
 
@@ -663,7 +663,7 @@ ax.tick_params(labelsize=20)
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2048.png)
+![Matplotlib_48](jpg/Matplotlib_48.png)
 
 ### Several Line Plots on Different Axes
 
@@ -700,7 +700,7 @@ axes[-1].set_xticklabels(x_tickslabels)
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2049.png)
+![Matplotlib_49](jpg/Matplotlib_49.png)
 
 ### ax.axvline and ax.axhline
 
@@ -717,15 +717,15 @@ ax.axvline(x = 1,            # ax.axhline(y = 1)
 plt.show()
 ```
 
-![- axvline(x=1)](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2050.png)
+![- axvline(x=1)](jpg/Matplotlib_50.png)
 
 - axvline(x=1)
 
-![- ymax =0.8, ymin = 0.2](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2051.png)
+![- ymax =0.8, ymin = 0.2](jpg/Matplotlib_51.png)
 
 - ymax =0.8, ymin = 0.2
 
-![- axhline(y=1)](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2052.png)
+![- axhline(y=1)](jpg/Matplotlib_52.png)
 
 - axhline(y=1)
 
@@ -749,7 +749,7 @@ ax.plot(x_data, y_data+3,
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2053.png)
+![Matplotlib_53](jpg/Matplotlib_53.png)
 
 ### Line Styles
 
@@ -770,7 +770,7 @@ ax.axhline(y=-1,
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2054.png)
+![Matplotlib_54](jpg/Matplotlib_54.png)
 
 ### Markers
 
@@ -797,7 +797,7 @@ ax.plot(t, sin+3,
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2055.png)
+![Matplotlib_55](jpg/Matplotlib_55.png)
 
 ### Customizing Markers
 
@@ -819,7 +819,7 @@ ax.plot(t, sin+1,
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2056.png)
+![Matplotlib_56](jpg/Matplotlib_56.png)
 
 ### fmt Argument
 
@@ -838,7 +838,7 @@ ax.plot(x_data,':ob')
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2057.png)
+![Matplotlib_57](jpg/Matplotlib_57.png)
 
 ### Usage of Legend
 
@@ -908,9 +908,9 @@ ax.plot(random_noise3,
 ax.legend() # default loc : best # right : loc = 'upper right'
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2058.png)
+![Matplotlib_58](jpg/Matplotlib_58.png)
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2059.png)
+![Matplotlib_59](jpg/Matplotlib_59.png)
 
 - ncol Argument
 
@@ -932,13 +932,13 @@ ax.legend(fontsize=15,
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2060.png)
+![Matplotlib_60](jpg/Matplotlib_60.png)
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2061.png)
+![Matplotlib_61](jpg/Matplotlib_61.png)
 
 - bbox_to_anchor Argument
 
-![출처 : 양정은 강사](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2062.png)
+![출처 : 양정은 강사](jpg/Matplotlib_62.png)
 
 출처 : 양정은 강사
 
@@ -969,7 +969,7 @@ fig.tight_layout()
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2063.png)
+![Matplotlib_63](jpg/Matplotlib_63.png)
 
 ### Advanced Legend
 
@@ -1014,13 +1014,13 @@ fig.tight_layout()
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2064.png)
+![Matplotlib_64](jpg/Matplotlib_64.png)
 
 ### Practice
 
 - 1번.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2065.png)
+![Matplotlib_65](jpg/Matplotlib_65.png)
 
 ```python
 countries = ['Australia', 'Austria', 'Belgium', 'Canada', 'Chile',
@@ -1117,13 +1117,13 @@ fig.tight_layout()
 plt.show()
 ```
 
-![- result](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2066.png)
+![- result](jpg/Matplotlib_66.png)
 
 - result
 
 - 2번.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2067.png)
+![Matplotlib_67](jpg/Matplotlib_67.png)
 
 ```python
 np.random.seed(8)
@@ -1152,11 +1152,11 @@ ax = fig.add_subplot()
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2068.png)
+![Matplotlib_68](jpg/Matplotlib_68.png)
 
 - 3번.
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2069.png)
+![Matplotlib_69](jpg/Matplotlib_69.png)
 
 ```python
 names = ['DFF R-FCN', 'R-FCN', 'FGFA R-FCN'] # label에 들어갈 내용
@@ -1221,4 +1221,4 @@ fig.tight_layout()
 plt.show()
 ```
 
-![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA(Matplotlib)%205b519b5cd3ee49eb84a612d7b008fc31/Untitled%2070.png)
+![Matplotlib_70](jpg/Matplotlib_70.png)
