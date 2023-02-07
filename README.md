@@ -2,7 +2,7 @@
 
 ## NLP
 - 졸업논문 내용 + Bert
-- 자연어처리를 위한 Bert 
+- 자연어처리를 위한 Bert
 
 ## Crawling
 
